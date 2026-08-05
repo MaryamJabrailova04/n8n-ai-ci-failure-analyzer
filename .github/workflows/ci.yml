@@ -34,7 +34,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install --requirement requirements.txt
 
-      - name: Test failure
+      - name: Test failure1
         run: exit 1
 
       - name: Run unit tests
