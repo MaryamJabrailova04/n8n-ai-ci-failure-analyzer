@@ -44,5 +44,5 @@ jobs:
         run: |
           pytest --verbose
 
-      - name: Fail test
+      - name: Fail test1
         run: exit 1
