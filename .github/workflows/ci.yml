@@ -2,7 +2,7 @@
 name: Python CI
 
 on:
-  pu:
+  push:
     branches:
       - main
   pull_request:
@@ -38,5 +38,10 @@ jobs:
       - name: Run unit test
         run: |
           pytest --verbose
+
+      - name: Run unit test
+        run: exit 1
+
+      
 
       
