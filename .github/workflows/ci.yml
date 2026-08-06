@@ -37,7 +37,7 @@ jobs:
       - name: Test failure
         run: exit 1
 
-      - name: Fail test1
+      - name: Fail test
         run: exit 1
 
       - name: Run unit tests
