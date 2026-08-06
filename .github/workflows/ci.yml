@@ -43,3 +43,6 @@ jobs:
       - name: Run unit tests
         run: |
           pytest --verbose
+
+      - name: Fail test
+        run: exit 1
