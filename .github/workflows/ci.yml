@@ -2,7 +2,7 @@
 name: Python CI
 
 on:
-  pus:
+  push:
     branches:
       - main
   pull_request:
